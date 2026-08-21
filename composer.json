@@ -1,0 +1,26 @@
+{
+    "name": "maxim/touche-pas-au-klaxon",
+    "description": "Application interne à l'entreprise afin de faire du covoiturage entre les différents sites de l'entreprise.",
+    "autoload": {
+        "psr-4": {
+            "Maxim\\TouchePasAuKlaxon\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Maxime C."
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "miladrahimi/phprouter": "^5.1"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^2.2",
+        "phpunit/phpunit": "^11.5"
+    },
+    "scripts": {
+        "phpstan": "phpstan analyse",
+        "test":    "phpunit"
+    }
+}
