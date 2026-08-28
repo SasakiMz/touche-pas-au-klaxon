@@ -3,7 +3,8 @@
     "description": "Application interne à l'entreprise afin de faire du covoiturage entre les différents sites de l'entreprise.",
     "autoload": {
         "psr-4": {
-            "Maxim\\TouchePasAuKlaxon\\": "src/"
+            "App\\": "app/",
+            "Core\\": "core/"
         }
     },
     "authors": [
